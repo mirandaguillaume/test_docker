@@ -2,7 +2,7 @@
 FROM php:7.1-fpm-alpine
 
 #Install php extensions
-RUN apk install git
+RUN apk add --no-cache git
 RUN docker-php-ext-install bcmath
 
 # Install Composer
