@@ -1,0 +1,7 @@
+{
+  "require": {
+    "hirak/prestissimo": "^0.3",
+    "naderman/composer-aws": "~0.2.5",
+    "phpunit/phpunit": "^7.5"
+  }
+}
